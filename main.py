@@ -41,7 +41,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["BISHNOI"]))
+@bot.on_message(filters.command(["bhuriya"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('Send me **TXT File**⚡️')
     input: Message = await bot.listen(editable.chat.id)
